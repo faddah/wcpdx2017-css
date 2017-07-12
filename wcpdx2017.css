@@ -505,3 +505,41 @@ body.mobile-theme .entry-content h2 {
 .tix-error {
   color: black;
 }
+
+/* Nick K. - Homepage News */
+
+@media screen and (min-width: 767px) {
+  .home.page .recent-posts {
+    display: flex;
+
+  }
+
+  .home.page #panel3 .wrap {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .home.page #panel3 h1 {
+    margin-bottom: 30px;
+  }
+
+  .home.page .recent-posts article {
+    flex: 1;
+    margin-right: 30px;
+  }
+
+  .home.page .recent-posts article h3.entry-title {
+    text-align: left;
+  }
+
+  .home.page .recent-posts article .entry-header {
+    margin-bottom: 2em;
+  }
+
+  .home.page .recent-posts a.more-link {
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 8px 12px;
+    box-shadow: none;
+  }
+}
